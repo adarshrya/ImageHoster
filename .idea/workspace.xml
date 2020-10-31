@@ -23,12 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +61,6 @@
         <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="660" />
-    <option name="width" value="620" />
-    <option name="height" value="728" />
   </component>
   <component name="ProjectId" id="1jdpicUXhoeZYUc35vdN4DewsKD" />
   <component name="ProjectViewState">
@@ -139,7 +129,7 @@
       <workItem from="1541425509097" duration="2191000" />
       <workItem from="1541430847431" duration="899000" />
       <workItem from="1541482181542" duration="4602000" />
-      <workItem from="1604143955504" duration="70000" />
+      <workItem from="1604143955504" duration="267000" />
     </task>
     <servers />
   </component>
