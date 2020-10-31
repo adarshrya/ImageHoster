@@ -23,11 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/UserControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,14 +81,16 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6643678" />
   </component>
-  <component name="RunManager" selected="JUnit.ImageHoster.controller in ImageHoster">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.ImageHosterApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,8 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ImageHoster.controller in ImageHoster" />
         <item itemvalue="Spring Boot.ImageHosterApplication" />
+        <item itemvalue="JUnit.ImageHoster.controller in ImageHoster" />
         <item itemvalue="JUnit.CommentControllerTest" />
         <item itemvalue="JUnit.UserControllerTest" />
         <item itemvalue="JUnit.ImageControllerTest" />
@@ -204,6 +203,7 @@
       <workItem from="1541430847431" duration="899000" />
       <workItem from="1541482181542" duration="4602000" />
       <workItem from="1604143955504" duration="11594000" />
+      <workItem from="1604157058117" duration="154000" />
     </task>
     <servers />
   </component>
@@ -220,6 +220,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604148190063">
@@ -230,38 +231,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1085" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604152818200" />
-    <state width="1223" height="256" key="GridCell.Tab.0.bottom" timestamp="1604154815254">
+    <state width="1075" height="253" key="GridCell.Tab.0.bottom" timestamp="1604157213214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1223" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604154815254" />
-    <state width="1223" height="256" key="GridCell.Tab.0.center" timestamp="1604154815254">
+    <state width="1075" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604157213214" />
+    <state width="1075" height="253" key="GridCell.Tab.0.center" timestamp="1604157213214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1223" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604154815254" />
-    <state width="1223" height="256" key="GridCell.Tab.0.left" timestamp="1604154815253">
+    <state width="1075" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604157213214" />
+    <state width="1075" height="253" key="GridCell.Tab.0.left" timestamp="1604157213214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1223" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604154815253" />
-    <state width="1223" height="256" key="GridCell.Tab.0.right" timestamp="1604154815254">
+    <state width="1075" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604157213214" />
+    <state width="1075" height="253" key="GridCell.Tab.0.right" timestamp="1604157213214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1223" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604154815254" />
-    <state width="1233" height="256" key="GridCell.Tab.1.bottom" timestamp="1604153921618">
+    <state width="1075" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604157213214" />
+    <state width="1075" height="253" key="GridCell.Tab.1.bottom" timestamp="1604157213214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1233" height="256" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604153921618" />
-    <state width="1233" height="256" key="GridCell.Tab.1.center" timestamp="1604153921617">
+    <state width="1075" height="253" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604157213214" />
+    <state width="1075" height="253" key="GridCell.Tab.1.center" timestamp="1604157213214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1233" height="256" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604153921617" />
-    <state width="1233" height="256" key="GridCell.Tab.1.left" timestamp="1604153921617">
+    <state width="1075" height="253" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604157213214" />
+    <state width="1075" height="253" key="GridCell.Tab.1.left" timestamp="1604157213214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1233" height="256" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604153921617" />
-    <state width="1233" height="256" key="GridCell.Tab.1.right" timestamp="1604153921618">
+    <state width="1075" height="253" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604157213214" />
+    <state width="1075" height="253" key="GridCell.Tab.1.right" timestamp="1604157213214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1233" height="256" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604153921618" />
+    <state width="1075" height="253" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604157213214" />
     <state x="962" y="253" width="585" height="534" key="find.popup" timestamp="1604145772222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
