@@ -23,10 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/service/CommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/CommentControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/HomeControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/ImageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImageHoster/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images/image.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +68,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1jdpicUXhoeZYUc35vdN4DewsKD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -92,6 +104,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CommentControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ImageHoster" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImageHoster.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ImageHoster.controller" />
+      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.CommentControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImageHoster" />
       <extension name="coverage">
@@ -107,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageControllerTest.deleteImageWithNonOwnerOfTheImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImageHoster.controller in ImageHoster" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ImageHoster" />
       <extension name="coverage">
         <pattern>
@@ -116,25 +143,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ImageHoster.controller" />
-      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.ImageControllerTest" />
-      <option name="METHOD_NAME" value="deleteImageWithNonOwnerOfTheImage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImageControllerTest.editImageWithNonOwnerOfTheImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ImageHoster" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ImageHoster.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ImageHoster.controller" />
-      <option name="MAIN_CLASS_NAME" value="ImageHoster.controller.ImageControllerTest" />
-      <option name="METHOD_NAME" value="editImageWithNonOwnerOfTheImage" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,10 +179,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ImageHosterApplication" />
+        <item itemvalue="JUnit.ImageHoster.controller in ImageHoster" />
+        <item itemvalue="JUnit.CommentControllerTest" />
         <item itemvalue="JUnit.UserControllerTest" />
         <item itemvalue="JUnit.ImageControllerTest" />
-        <item itemvalue="JUnit.ImageControllerTest.deleteImageWithNonOwnerOfTheImage" />
-        <item itemvalue="JUnit.ImageControllerTest.editImageWithNonOwnerOfTheImage" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +211,7 @@
       <workItem from="1541425509097" duration="2191000" />
       <workItem from="1541430847431" duration="899000" />
       <workItem from="1541482181542" duration="4602000" />
-      <workItem from="1604143955504" duration="6945000" />
+      <workItem from="1604143955504" duration="11594000" />
     </task>
     <servers />
   </component>
@@ -225,38 +234,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604148190063" />
-    <state width="1233" height="256" key="GridCell.Tab.0.bottom" timestamp="1604150879171">
+    <state x="1085" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1604152818200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1233" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604150879171" />
-    <state width="1233" height="256" key="GridCell.Tab.0.center" timestamp="1604150879171">
+    <state x="1085" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604152818200" />
+    <state width="1223" height="256" key="GridCell.Tab.0.bottom" timestamp="1604154815254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1233" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604150879171" />
-    <state width="1233" height="256" key="GridCell.Tab.0.left" timestamp="1604150879171">
+    <state width="1223" height="256" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604154815254" />
+    <state width="1223" height="256" key="GridCell.Tab.0.center" timestamp="1604154815254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1233" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604150879171" />
-    <state width="1233" height="256" key="GridCell.Tab.0.right" timestamp="1604150879171">
+    <state width="1223" height="256" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604154815254" />
+    <state width="1223" height="256" key="GridCell.Tab.0.left" timestamp="1604154815253">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1233" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604150879171" />
-    <state width="1233" height="256" key="GridCell.Tab.1.bottom" timestamp="1604150879167">
+    <state width="1223" height="256" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604154815253" />
+    <state width="1223" height="256" key="GridCell.Tab.0.right" timestamp="1604154815254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1233" height="256" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604150879167" />
-    <state width="1233" height="256" key="GridCell.Tab.1.center" timestamp="1604150879167">
+    <state width="1223" height="256" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604154815254" />
+    <state width="1233" height="256" key="GridCell.Tab.1.bottom" timestamp="1604153921618">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1233" height="256" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604150879167" />
-    <state width="1233" height="256" key="GridCell.Tab.1.left" timestamp="1604150879166">
+    <state width="1233" height="256" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604153921618" />
+    <state width="1233" height="256" key="GridCell.Tab.1.center" timestamp="1604153921617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1233" height="256" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604150879166" />
-    <state width="1233" height="256" key="GridCell.Tab.1.right" timestamp="1604150879167">
+    <state width="1233" height="256" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604153921617" />
+    <state width="1233" height="256" key="GridCell.Tab.1.left" timestamp="1604153921617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1233" height="256" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604150879167" />
+    <state width="1233" height="256" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604153921617" />
+    <state width="1233" height="256" key="GridCell.Tab.1.right" timestamp="1604153921618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1233" height="256" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604153921618" />
     <state x="962" y="253" width="585" height="534" key="find.popup" timestamp="1604145772222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

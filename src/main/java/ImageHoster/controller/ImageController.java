@@ -48,6 +48,7 @@ public class ImageController {
     @RequestMapping("/images/{imageId}/{title}")
     public String showImage(@PathVariable Integer imageId, @PathVariable("title") String title, Model model) {
         Image image = imageService.getImage(imageId);
+        model.addAttribute("comments", image.getComments());
         model.addAttribute("image", image);
         model.addAttribute("tags", image.getTags());
         return "images/image";
@@ -97,6 +98,7 @@ public class ImageController {
         User user = (User) session.getAttribute("loggeduser");
         model.addAttribute("image", image);
         if (user.getId() != image.getUser().getId()) {
+            model.addAttribute("comments", image.getComments());
             model.addAttribute("tags", image.getTags());
             model.addAttribute("editError", "Only the owner of the image can edit the image");
             return "images/image";
@@ -152,6 +154,7 @@ public class ImageController {
 
         if (user.getId() != image.getUser().getId()) {
             model.addAttribute("image", image);
+            model.addAttribute("comments", image.getComments());
             model.addAttribute("tags", image.getTags());
             model.addAttribute("deleteError", "Only the owner of the image can delete the image");
             return "images/image";
